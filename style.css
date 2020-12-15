@@ -1,10 +1,17 @@
 body {
   margin: 0;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
   color: white;
   margin: 0;
+  font-family: "Sacramento", cursive;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .first_container {
