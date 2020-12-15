@@ -1,4 +1,13 @@
-img {
-  height: 300px;
-  border-radius: 500px;
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.first_container {
+  background-color: #222831;
+  height: 500px;
 }
