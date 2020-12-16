@@ -1,20 +1,140 @@
+/* 16px = 100% = 1em */
 body {
   margin: 0;
+  text-align: center;
   font-family: "Merriweather", serif;
 }
 
 h1 {
   color: white;
-  margin: 0;
   font-family: "Sacramento", cursive;
 }
 
-h2,
+h3,
 h3 {
+  color: black;
   font-family: "Montserrat", sans-serif;
 }
 
-.first_container {
+.first-container {
+  position: relative;
   background-color: #222831;
+  padding-top: 100px;
+  height: 700px;
+}
+
+.cloud_bottom {
+  position: absolute;
+  height: 70px;
+}
+
+.cloud_top {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+  height: 90px;
+}
+
+.mountain {
   height: 500px;
+  bottom: 100px;
+}
+
+.profile_image {
+  border-radius: 500px;
+  height: 200px;
+}
+
+.middle-container {
+  background-color: whitesmoke;
+  color: black;
+  padding-top: 50px;
+}
+
+.skill_image {
+  height: 200px;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill_image_2 {
+  height: 200px;
+  float: right;
+  padding-left: 20px;
+}
+
+.my_name {
+  padding-top: 150px;
+  font-size: 120px;
+  transition-duration: 1500ms;
+}
+
+.down_arrow {
+  padding-top: 160px;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row_2 {
+  width: 70%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills_heading {
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #222831;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.profile {
+  padding-bottom: 100px;
+}
+
+.contact-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0;
+}
+
+hr {
+  border-style: dotted;
+  border-bottom-width: 7.5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: black;
+  height: 0px;
+  width: 3%;
+}
+
+.btn {
+  border-radius: 20px;
+  border: black;
+  color: black;
+}
+
+.getintouch {
+  font-size: 40px;
+}
+
+.footer-link {
+  color: white;
+  padding: 10px;
+}
+
+.my_name:hover {
+  color: gold;
 }
