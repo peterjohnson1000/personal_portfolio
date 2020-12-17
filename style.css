@@ -137,7 +137,7 @@ hr {
 .scroll_down {
   height: 50px;
   width: 30px;
-  border: 2px solid white;
+  border: 2px solid #222831;
   position: absolute;
   left: 50%;
   bottom: 30px;
@@ -178,4 +178,40 @@ hr {
     opacity: 0;
     top: 90%;
   }
+}
+
+.skill_image_3 {
+  height: 200px;
+  float: left;
+  padding-right: 20px;
+}
+
+.skill-row_3 {
+  width: 70%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill_image_4 {
+  height: 200px;
+  float: right;
+}
+
+.skill-row_4 {
+  width: 70%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img2,
+.img3 {
+  height: 30px;
+  padding-bottom: 10px;
+}
+
+.img1 {
+  height: 40px;
+  padding-bottom: 5px;
 }
